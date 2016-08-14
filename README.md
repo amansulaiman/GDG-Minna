@@ -1,3 +1,2 @@
-# siwesfreecodecamp
-siwes full stack web development 
-2016
+# GDG Minna
+GDG Minna App
