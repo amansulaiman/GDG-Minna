@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gdgminna.blogspot.com.umar">
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:id="@+id/imageView8"
+                android:background="@drawable/umar"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Books reader turned to programmer Umar Saidu is the Manager of Google Developer Group Minna, a member of Google Developer Group BUK (Bayero University Kano) and also a student @ BUK. He is a Programmer Mostly on Android Platform, Loves reading books and coding."
+            android:textSize="18dp"
+            android:id="@+id/textView2"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:layout_below="@+id/imageView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Programming Languages Known: Q-Basic, FORTRAN, Visual Basic, C++, JAVA (Intermediate)"
+                android:textSize="18dp"
+                android:id="@+id/textView3"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:layout_below="@+id/imageView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Favorite Quote: A Rough Road Leads To the Stars "
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:id="@+id/textView4"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:layout_below="@+id/imageView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:background="@drawable/face"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageumar1" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:background="@drawable/plus"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageumar2"
+                    android:layout_gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:background="@drawable/tweet"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageumar3" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:background="@drawable/link"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageumar4" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

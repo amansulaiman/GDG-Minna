@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GDG Minna</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">About</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gdgminnaweb">GDG AAUA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_gdgabia_poly">GDG Abia Poly</string>
+    <string name="title_activity_gdgabuja">GDG Abuja</string>
+    <string name="title_activity_gdgado__ekiti">GDG Ado Ekiti</string>
+    <string name="title_activity_gdgakure">GDG Akure</string>
+    <string name="title_activity_gdgbells__university">GDG Bells University</string>
+    <string name="title_activity_gdgbenin">GDG Benin</string>
+    <string name="title_activity_gdgbingham__university">GDG Bingham University</string>
+    <string name="title_activity_gdgbuk">GDG BUK</string>
+    <string name="title_activity_gdgcalabar">GDG Calabar</string>
+    <string name="title_activity_gdgekiti__state__university">GDG Ekiti State University</string>
+    <string name="title_activity_gdgenugu">GDG Enugu</string>
+    <string name="title_activity_gdgfederal__university__dutse">GDG Federal University Dutse</string>
+    <string name="title_activity_gdgfunaab">GDG FUNAAB</string>
+    <string name="title_activity_gdgibadan">GDG Ibadan</string>
+    <string name="title_activity_gdgjsiit">GDG JSIIT</string>
+    <string name="title_activity_gdgkaduna">GDG Kaduna</string>
+    <string name="title_activity_gdgkaduna__state__university">GDG Kaduna State University</string>
+    <string name="title_activity_gdgkano">GDG Kano</string>
+    <string name="title_activity_gdglafia">GDG Lafia</string>
+    <string name="title_activity_gdglagos">GDG Lagos</string>
+    <string name="title_activity_gdglautech">GDG LAUTECH</string>
+    <string name="title_activity_gdgminna">GDG Minna</string>
+    <string name="title_activity_gdgnjikoka">GDG Njikoka</string>
+    <string name="title_activity_gdgnwu">GDG NWU</string>
+    <string name="title_activity_gdgoau">GDG OAU</string>
+    <string name="title_activity_gdgoko">GDG Oko</string>
+    <string name="title_activity_gdgport__harcourt">GDG Port Harcourt</string>
+    <string name="title_activity_gdgtaraba">GDG Taraba</string>
+    <string name="title_activity_gdgunilag">GDG Unilag</string>
+    <string name="title_activity_gdgunilorin">GDG Unilorin</string>
+    <string name="title_activity_gdgunn">GDG UNN</string>
+    <string name="title_activity_gdguyo">GDG Uyo</string>
+    <string name="title_activity_umar">Umar Saidu Auna</string>
+    <string name="title_activity_isaac">Isaac Marcus</string>
+    <string name="title_activity_gbemileke">Gbemileke Anthony</string>
+    <string name="title_activity_about">About</string>
+
+</resources>

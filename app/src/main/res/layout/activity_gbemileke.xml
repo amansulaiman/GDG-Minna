@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gdgminna.blogspot.com.gbemileke">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:id="@+id/imageView8"
+                android:background="@drawable/gbemileke"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Words are my passion-written or spoken, Gbemileke Anthony is the Women Techmaker Lead Minna (WTM Minna), Am a Student @ Federal University of Technology Minna Studying Computer Science. For me telling people just how much technology can change their lives is absolutely fabulous"
+                android:textSize="18dp"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:layout_below="@+id/imageView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:background="@drawable/face"
+                    android:layout_height="60dp"
+                    android:id="@+id/imagegbemileke1" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:background="@drawable/plus"
+                    android:layout_height="60dp"
+                    android:id="@+id/imagegbemileke2"
+                    android:layout_gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:background="@drawable/tweet"
+                    android:layout_height="60dp"
+                    android:id="@+id/imagegbemileke3" />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:background="@drawable/link"
+                    android:layout_height="60dp"
+                    android:id="@+id/imagegbemileke4" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

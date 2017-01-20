@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="gdgminna.blogspot.com.WTM_Minna">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/wmm"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="161dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/view">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What is Women Techmakers?"
+            android:textSize="23dp"
+            android:id="@+id/textView"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Women Techmakers is Google's global program and brand for women in technology. Kicked off in 2012 by then VP of Google[x] Megan Smith, Women Techmakers is now led by Women in Technology Advocate Natalie Villalobos and a global team of Googlers who are passionate about empowering women in technology through increased visibility, community, and resources."
+            android:textSize="18dp"
+            android:id="@+id/textView2"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About Women Techmakers"
+            android:textSize="25dp"
+            android:id="@+id/textView3"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Engineering the future"
+            android:textSize="23dp"
+            android:id="@+id/textView4"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Women Techmakers aims to raise awareness of innovative women leaders in technology and inspire others to join the field."
+            android:textSize="18dp"
+            android:id="@+id/textView5"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Visibility"
+            android:textSize="23dp"
+            android:id="@+id/textView6"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Showcasing the work of women leaders in the tech industry by providing a platform to celebrate their talents and produce more female role models. "
+            android:textSize="18dp"
+            android:id="@+id/textView7"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Community"
+            android:textSize="23dp"
+            android:id="@+id/textView8"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curating and creating a supportive community in which women can connect around the world, become inspired by one another, and encourage each other to continuously strive to realize their passions."
+            android:textSize="18dp"
+            android:id="@+id/textView9"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Resources"
+            android:textSize="23dp"
+            android:id="@+id/textView10"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Providing women with opportunities to develop technical skillsets, aid in career development and personal growth."
+            android:textSize="18dp"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enabling passionate, creative women to lead the technology industry."
+            android:textSize="18dp"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gdgminna.blogspot.com.Organizers">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/banner"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="291dp"
+        android:layout_height="78dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/gdgminna"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="95dp"
+      android:layout_below="@+id/imageView"
+      android:orientation="vertical"
+      android:background="#7b00aaff"
+      android:layout_marginTop="12dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:id="@+id/linearLayout">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:autoLink="phone"
+          android:text="+23408183969048"
+          android:id="@+id/textView17"
+          android:textSize="15dp"
+          android:layout_below="@+id/imageView"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:textColorLink="#ff000000" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="Umar Saidu Auna"
+          android:id="@+id/textumar"
+          android:textSize="30dp"
+          android:layout_gravity="center"
+          android:layout_marginTop="6dp"
+          android:layout_below="@+id/imageView"
+          android:layout_centerHorizontal="true" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:autoLink="email"
+          android:layout_marginTop="5dp"
+          android:textSize="15dp"
+          android:text="umarmanofpeace@gmail.com"
+          android:id="@+id/textView19"
+
+          android:layout_gravity="end"
+          android:layout_below="@+id/imageView"
+          android:layout_centerHorizontal="true"
+          android:textColorLink="#ff000000"
+          android:textIsSelectable="false" />
+      </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="vertical"
+        android:background="#d7ff383d"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="+2347031162515"
+            android:autoLink="phone"
+            android:id="@+id/textView20"
+            android:textSize="15dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColorLink="#ff000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Isaac Marcus"
+            android:id="@+id/textisaac"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:autoLink="email"
+            android:text="djzichat@gmail.com"
+            android:id="@+id/textView22"
+            android:layout_gravity="end"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:textColorLink="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="vertical"
+        android:background="#8affe31b"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="+2347060940615"
+            android:autoLink="phone"
+            android:id="@+id/textView23"
+            android:textSize="15dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColorLink="#ff000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gbemileke Anthony"
+            android:id="@+id/textgbemileke"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:text="anthonygbemileke@gmail.com"
+            android:id="@+id/textView25"
+            android:layout_gravity="end"
+            android:autoLink="email"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:textColorLink="#ff000000" />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gdgminna.blogspot.com.FeedBack">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/banner"
+        android:gravity="center"
+        android:id="@+id/relativeLayout2"
+        android:layout_gravity="left|top" >
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Feedback Form"
+        android:textSize="40dp"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/name"
+        android:background="#7b00aaff"
+        android:hint="Name"
+        android:textColorHint="#ae010101" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="phone"
+        android:background="#9dff0520"
+        android:hint="Phone number"
+        android:ems="10"
+        android:id="@+id/phone"
+        android:textColorHint="#ae010101" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:background="#FFFFFDA0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Email"
+        android:textColorHint="#ae010101" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/places"
+        android:hint="Location"
+        android:background="#8a0aff6a"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#ae010101" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7b00aaff"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_weight="0.25"
+        android:id="@+id/description"
+        android:textColorHint="#ae010101" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/send" />
+
+
+</LinearLayout>

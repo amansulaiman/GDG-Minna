@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gdgminna.blogspot.com.About">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/banner"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="291dp"
+        android:layout_height="78dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/gdgm"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="GDG Minna app is designed specifically for Developers, Programmers and Designers so as to bring them together to do cool things that matters :) and lastly when Developers come together amazing things can happen."
+            android:textSize="15dp"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="All Rights Reserved."
+            android:textSize="18dp"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Version 1.0"
+            android:textSize="18dp"
+            android:id="@+id/textView4"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

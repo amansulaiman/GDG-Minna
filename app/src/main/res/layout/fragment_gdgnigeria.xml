@@ -1,0 +1,553 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="gdgminna.blogspot.com.GDGNigeria">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/banner"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="356dp"
+        android:layout_height="97dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/gdg_nig"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG AAUA"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna1"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Abia Poly"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna2"
+                android:background="#ff0000"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Abuja"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna3"
+                android:background="#ffffe468"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Ado-Ekiti"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna4"
+                android:background="#ff00bf31"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Akure"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna5"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Bells University"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna6"
+                android:background="#ff0000"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Benin"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna7"
+                android:background="#ffffe468"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Bingham University"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna8"
+                android:background="#ff00bf31"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG BUK"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna9"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Calabar"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna10"
+                android:background="#ff0000"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Ekiti State University"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna11"
+                android:background="#ffffe468"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Enugu"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna12"
+                android:background="#ff00bf31"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Federal University Dutse"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna13"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG FUNAAB"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna14"
+                android:background="#ff0000"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Ibadan"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna15"
+                android:background="#ffffe468"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG JSIIT"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna16"
+                android:background="#ff00bf31"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Kaduna"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna17"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Kaduna State University"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna18"
+                android:background="#ff0000"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Kano"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna19"
+                android:background="#ffffe468"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Lafia"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna20"
+                android:background="#ff00bf31"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Lagos"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna21"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG LAUTECH"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna22"
+                android:background="#ff0000"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Minna"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna23"
+                android:background="#ffffe468"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Njikoka"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna24"
+                android:background="#ff00bf31"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG NWU"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna25"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG OAU"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna26"
+                android:background="#ff0000"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Oko"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna27"
+                android:background="#ffffe468"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Port Harcourt"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna28"
+                android:background="#ff00bf31"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Taraba"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna29"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Unilag"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna30"
+                android:background="#ff0000"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Unilorin"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna31"
+                android:background="#ffffe468"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG UNN"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna32"
+                android:background="#ff00bf31"
+                android:textColor="#ffffff"
+                android:hapticFeedbackEnabled="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+            <Button
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="GDG Uyo"
+                android:textSize="30dp"
+                android:id="@+id/gdgminna33"
+                android:background="#4aacff"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

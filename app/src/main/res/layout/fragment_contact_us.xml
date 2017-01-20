@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gdgminna.blogspot.com.Contact_us">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/banner"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/groups"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GDG Minna Group "
+        android:textColor="#ff055bff"
+        android:textStyle="bold"
+        android:id="@+id/groups"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignLeft="@+id/blog"
+        android:layout_alignStart="@+id/blog" />
+
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/googleplus"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GDG Minna +Page"
+        android:textSize="21dp"
+        android:id="@+id/plus"
+        android:layout_marginLeft="1dp"
+        android:textStyle="bold"
+        android:textColor="#9dff0520"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/groups"
+        android:layout_alignStart="@+id/groups" />
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:id="@+id/imageView4"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/blogger"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Website"
+        android:id="@+id/blog"
+        android:textSize="23dp"
+        android:layout_marginLeft="9dp"
+        android:textColor="#ffcbce00"
+        android:textStyle="bold"
+        android:layout_above="@+id/imageView5"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4" />
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/face"
+        android:layout_below="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Facebook Page"
+        android:id="@+id/face"
+        android:textColor="#ff0aff6a"
+        android:layout_alignBottom="@+id/imageView5"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/plus"
+        android:layout_alignStart="@+id/plus" />
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:id="@+id/imageView6"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/gdeveloped"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GDG Minna Developers"
+        android:textColor="#ff055bff"
+        android:id="@+id/develop"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignLeft="@+id/blog"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/blog" />
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:id="@+id/imageView7"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/logo"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Women TechMakers"
+        android:id="@+id/women"
+        android:textColor="#9dff0520"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_alignLeft="@+id/develop"
+        android:layout_alignStart="@+id/develop" />
+
+
+</RelativeLayout>
